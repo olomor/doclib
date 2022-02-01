@@ -1,6 +1,12 @@
 # Ansible LAB - Uso de variáveis em inventário de hosts
 
-__Configuração inicial__
+## Objetivo
+
+Demonstrar o uso de variáveis de ambiente e Ansible-vault nas entradas de hosts no inventário. Viabiliza a execução em massa de uma playbook em hosts com diferentes usuários e características entre si.
+
+## Preparação
+
+__Configuração do Ansible__
 
 > ansible.cfg
 
@@ -17,17 +23,7 @@ _IMPORTANTE: Considera-se neste lab o uso de um "bastion host" (ProxyJump)
 onde a chave pública "id_rsa" já foi importada no serviço "sshd" 
 destino em "jumphost1" para o usuário corrente._
 
-
-## AD-Hoc Command
-
-Forma unitária e simplificada. Antendar que a vírugula seguinte ao nome do host 
-é essencial se utilizado um hostname ao invés de informar um arquivo de inventário.
-
-```
-ansible -i host1, -u zeca -k -m shell -a hostname all
-```
-
-## Execução múltipla
+## Mão-na-massa!!!
 
 - Inventário em YAML
 - Múltiplas senhas por pool
