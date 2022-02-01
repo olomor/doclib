@@ -2,9 +2,9 @@
 
 - Ansible Automation
     - Tips
-        - [Ad-hoc commands](https://github.com/olomor/pub-lib/blob/gh-pages/ansible/tips/ad-hoc_commands.md)
+        - [Ad-hoc commands](https://github.com/olomor/pub/blob/main/ansible/notes/ad-hoc_commands.md)
     - Lab
-        - [Uso de variáveis em inventário de hosts](https://github.com/olomor/pub-lib/blob/gh-pages/ansible/lab/inventory-vault.uso-de-variaveis-no-inventario.md)
+        - [Uso de variáveis em inventário de hosts](https://github.com/olomor/pub/blob/main/ansible/lab/inventory-vault.uso-de-variaveis-no-inventario.md)
 - TimeSeries Databases
     - Lab
-        - [Dashboard utilizando InfluxDB e Grafana](https://github.com/olomor/pub-lib/blob/gh-pages/timeseries/lab/timeseries-dashboard-influxdb-grafana.md)
+        - [Dashboard utilizando InfluxDB e Grafana](https://github.com/olomor/pub/blob/main/timeseries/lab/dashboard-using-influxdb%2Bgrafana.md)
